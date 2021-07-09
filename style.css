@@ -1,0 +1,46 @@
+.box{
+
+    height: 900px;
+    width: 100%;
+position: relative;
+}
+.box img{
+    position: absolute;
+height: 100%;
+width: 100%;
+}
+.box .logo{
+    
+    left: 30px;
+}
+.box .navbar-nav{
+    margin-top: 40px;
+
+}
+.box input{
+    position: relative;
+    margin-top: 20px;
+  
+}
+i.fas.fa-search {
+    position: absolute;
+    bottom: 2px;
+    right: 97px;
+    height: 26px;
+    width: 26px;
+    background: #756D6D;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    font-size: 17px;
+    line-height: 1.5;
+}
+.box input:hover{
+      background: #D1D1D1;
+}
+ul li a:hover{
+    color: red;
+}
+img.logo {
+    height: 271px;
+}
